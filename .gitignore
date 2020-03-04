@@ -1,3 +1,6 @@
 # JetBrains IDE files
 .idea
 moor2.iml
+
+# zeit.co
+.now
