@@ -4,3 +4,5 @@ moor2.iml
 
 # zeit.co
 .now
+.env
+.env.build
