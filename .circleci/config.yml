@@ -9,5 +9,5 @@ jobs:
     steps:
       - checkout
       - run: touch .env
-      - run: make install-dependencies
+      - run: sudo make install-dependencies # It is required to use `sudo` here because of `node_modules` path
       - run: make test
