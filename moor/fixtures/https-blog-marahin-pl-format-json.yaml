@@ -1,0 +1,369 @@
+---
+version: 1
+interactions:
+- request:
+    body: ""
+    form: {}
+    headers: {}
+    url: https://blog.marahin.pl/?format=json
+    method: GET
+  response:
+    body: "<html>\r\n<head><title>302 Found</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>302
+      Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    headers:
+      Cache-Control:
+      - no-store
+      Content-Length:
+      - "154"
+      Content-Type:
+      - text/html
+      Date:
+      - Wed, 04 Mar 2020 15:33:31 GMT
+      Location:
+      - https://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fblog.marahin.pl%2F%3Fformat%3Djson
+      Server:
+      - nginx
+    status: 302 Found
+    code: 302
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Referer:
+      - https://blog.marahin.pl/?format=json
+    url: https://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fblog.marahin.pl%2F%3Fformat%3Djson
+    method: GET
+  response:
+    body: ""
+    headers:
+      Alt-Svc:
+      - h3-27=":443"; ma=86400, h3-25=":443"; ma=86400, h3-24=":443"; ma=86400, h3-23=":443";
+        ma=86400
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Cf-Cache-Status:
+      - DYNAMIC
+      Cf-Ray:
+      - 56eca7f72f50cc9f-WAW
+      Content-Security-Policy:
+      - 'default-src ''self''; connect-src https://localhost https://*.instapaper.com
+        https://*.stripe.com https://glyph.medium.com https://*.paypal.com https://getpocket.com
+        https://medium.com https://*.medium.com https://*.medium.com https://medium.com
+        https://*.medium.com https://*.algolia.net https://cdn-static-1.medium.com
+        https://dnqgz544uhbo8.cloudfront.net https://cdn-videos-1.medium.com https://cdn-audio-1.medium.com
+        https://*.lightstep.com https://*.branch.io ''self''; font-src data: https://*.amazonaws.com
+        https://*.medium.com https://glyph.medium.com https://medium.com https://*.gstatic.com
+        https://dnqgz544uhbo8.cloudfront.net https://cdn-static-1.medium.com ''self'';
+        frame-src chromenull: https: webviewprogressproxy: medium: ''self''; img-src
+        blob: data: https: ''self''; media-src https://*.cdn.vine.co https://d1fcbxp97j4nb2.cloudfront.net
+        https://d262ilb51hltx0.cloudfront.net https://*.medium.com https://gomiro.medium.com
+        https://miro.medium.com https://pbs.twimg.com ''self'' blob:; object-src ''self'';
+        script-src ''unsafe-eval'' ''unsafe-inline'' about: https: ''self''; style-src
+        ''unsafe-inline'' data: https: ''self''; report-uri https://csp.medium.com'
+      Content-Type:
+      - application/octet-stream
+      Date:
+      - Wed, 04 Mar 2020 15:33:31 GMT
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Expires:
+      - Thu, 09 Sep 1999 09:09:09 GMT
+      Link:
+      - <https://medium.com/humans.txt>; rel="humans"
+      Location:
+      - https://blog.marahin.pl/?format=json&gi=7a47c0696f3
+      Pragma:
+      - no-cache
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=dd90f78178d3edcbe8957c1db90ee38c61583336011; expires=Fri, 03-Apr-20
+        15:33:31 GMT; path=/; domain=.medium.com; HttpOnly; SameSite=Lax
+      - uid=lo_hlYALFaBkcxm; Expires=Thu, 04-Mar-21 15:33:31 GMT; Domain=.medium.com;
+        Path=/; Secure; HttpOnly
+      - optimizelyEndUserId=lo_hlYALFaBkcxm; path=/; expires=Thu, 04 Mar 2021 15:33:31
+        GMT; domain=.medium.com; samesite=none; secure
+      - sid=1:ifmmF1wCVX/fGKKGfgNrQmSYKBSkJDv2HiLkuvjx78oeZ0yDyoSuqHYNLOqAiQdj; path=/;
+        expires=Thu, 04 Mar 2021 15:33:31 GMT; domain=.medium.com; samesite=none;
+        secure; httponly
+      - __cfruid=e00d66ce3837f9de978d716b484786cc7df6ab4d-1583336011; path=/; domain=.medium.com;
+        HttpOnly; Secure; SameSite=None
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - sameorigin
+      X-Obvious-Info:
+      - 40184-3a973b9,3a973b98af1
+      X-Obvious-Tid:
+      - 1583336011463:c0b255f6d803
+      X-Powered-By:
+      - Medium
+      X-Ua-Compatible:
+      - IE=edge, Chrome=1
+      X-Xss-Protection:
+      - 1; mode=block
+    status: 302 Found
+    code: 302
+    duration: ""
+- request:
+    body: ""
+    form: {}
+    headers:
+      Referer:
+      - https://medium.com/m/global-identity?redirectUrl=https%3A%2F%2Fblog.marahin.pl%2F%3Fformat%3Djson
+    url: https://blog.marahin.pl/?format=json&gi=7a47c0696f3
+    method: GET
+  response:
+    body: '])}while(1);</x>{"success":true,"payload":{"collection":{"id":"2d6450a1d29f","name":"marahin","slug":"cyfrowy-humanizm","tags":["PROGRAMMING","POLAND","TECHNOLOGY","GAMES"],"creatorId":"bb5536ac71d2","description":"blog
+      by Jasiek “marahin” Matusz","shortDescription":"blog by Jasiek “marahin” Matusz","image":{"imageId":"1*RMGwzcUVQfAm67Cwot6yiQ.jpeg","filter":"","backgroundSize":"","originalWidth":640,"originalHeight":640,"strategy":"resample","height":0,"width":0},"metadata":{"followerCount":13,"activeAt":1541509859920},"virtuals":{"permissions":{"canPublish":false,"canPublishAll":false,"canRepublish":false,"canRemove":false,"canManageAll":false,"canSubmit":false,"canEditPosts":false,"canAddWriters":false,"canViewStats":false,"canSendNewsletter":false,"canViewLockedPosts":false,"canViewCloaked":false,"canEditOwnPosts":false,"canBeAssignedAuthor":false,"canEnrollInHightower":false,"canLockPostsForMediumMembers":false,"canLockOwnPostsForMediumMembers":false,"canViewNewsletterV2Stats":false,"canCreateNewsletterV3":false},"isSubscribed":false,"isEnrolledInHightower":false,"isEligibleForHightower":false,"isSubscribedToCollectionEmails":false,"isMuted":false},"logo":{"imageId":"","filter":"","backgroundSize":"","originalWidth":0,"originalHeight":0,"strategy":"resample","height":0,"width":0},"twitterUsername":"3labMarahin","facebookPageName":"3labMarahin","publicEmail":"me@marahin.pl","domain":"blog.marahin.pl","sections":[{"type":2,"collectionHeaderMetadata":{"title":"digital
+      humanism","description":"","backgroundImage":{},"logoImage":{},"alignment":2,"layout":5}},{"type":1,"postListMetadata":{"source":1,"layout":4,"number":7,"postIds":["1025357947d9","bac709e37e62","74fd7501b011","e017ff182eb5","6e476225887c","4b5e5cc09a39","444baf1b8d0"]}},{"type":3,"promoMetadata":{"sectionHeader":"","promoId":"2b511f95f538"}},{"type":1,"postListMetadata":{"source":2,"layout":4,"number":3,"postIds":["8047f291beb3","bf5650ff07d1"],"sectionHeader":"Popular
+      stories"}}],"tintColor":"#FFD6A100","lightText":false,"favicon":{"imageId":"","filter":"","backgroundSize":"","originalWidth":0,"originalHeight":0,"strategy":"resample","height":0,"width":0},"colorPalette":{"defaultBackgroundSpectrum":{"colorPoints":[{"color":"#FFAA7A00","point":0},{"color":"#FF9E7200","point":0.1},{"color":"#FF916A00","point":0.2},{"color":"#FF846100","point":0.3},{"color":"#FF775800","point":0.4},{"color":"#FF6A4F05","point":0.5},{"color":"#FF5C4509","point":0.6},{"color":"#FF4E3B0A","point":0.7},{"color":"#FF40300A","point":0.8},{"color":"#FF312508","point":0.9},{"color":"#FF211805","point":1}],"backgroundColor":"#FFFFFFFF"},"tintBackgroundSpectrum":{"colorPoints":[{"color":"#FFD6A100","point":0},{"color":"#FFDDAB28","point":0.1},{"color":"#FFE3B43F","point":0.2},{"color":"#FFEABE54","point":0.3},{"color":"#FFEFC767","point":0.4},{"color":"#FFF5D17A","point":0.5},{"color":"#FFFADA8D","point":0.6},{"color":"#FFFFE3A0","point":0.7},{"color":"#FFFFECB3","point":0.8},{"color":"#FFFFF4C7","point":0.9},{"color":"#FFFFFDDA","point":1}],"backgroundColor":"#FFD6A100"},"highlightSpectrum":{"colorPoints":[{"color":"#FFFFF0C6","point":0},{"color":"#FFFFEEBD","point":0.1},{"color":"#FFFFEBB3","point":0.2},{"color":"#FFFFE9AA","point":0.3},{"color":"#FFFFE7A0","point":0.4},{"color":"#FFFFE497","point":0.5},{"color":"#FFFFE28D","point":0.6},{"color":"#FFFFDF83","point":0.7},{"color":"#FFFFDD7A","point":0.8},{"color":"#FFFFDA70","point":0.9},{"color":"#FFFFD766","point":1}],"backgroundColor":"#FFFFFFFF"}},"navItems":[{"type":1,"title":"Programming","tagSlug":"programming","url":"https://blog.marahin.pl/tagged/programming","source":"tagSlug"},{"type":3,"title":"about
+      me","url":"https://marahin.pl"}],"colorBehavior":1,"instantArticlesState":0,"acceleratedMobilePagesState":0,"ampLogo":{"imageId":"","filter":"","backgroundSize":"","originalWidth":0,"originalHeight":0,"strategy":"resample","height":0,"width":0},"header":{"title":"digital
+      humanism","description":"","backgroundImage":{},"logoImage":{},"alignment":2,"layout":5},"paidForDomainAt":1497530005243,"subscriberCount":13,"tagline":"blog
+      by Jasiek “marahin” Matusz","type":"Collection"},"header":{"title":"digital
+      humanism","description":"","backgroundImage":{},"logoImage":{},"alignment":2,"layout":5},"streamItems":[{"createdAt":1583335767984,"randomId":"feb6a9fef627","section":{"items":[{"post":{"postId":"1025357947d9"},"itemType":"post"},{"post":{"postId":"bac709e37e62"},"itemType":"post"},{"post":{"postId":"74fd7501b011"},"itemType":"post"},{"post":{"postId":"e017ff182eb5"},"itemType":"post"},{"post":{"postId":"6e476225887c"},"itemType":"post"},{"post":{"postId":"4b5e5cc09a39"},"itemType":"post"},{"post":{"postId":"444baf1b8d0"},"itemType":"post"}],"layout":4},"itemType":"section","type":"StreamItem"},{"createdAt":1583335767984,"randomId":"5799389dfa35","section":{"items":[{"promo":{"promoId":"2b511f95f538"},"itemType":"promo"}],"layout":2},"itemType":"section","type":"StreamItem"},{"createdAt":1583335767984,"randomId":"c4a288f56aac","section":{"items":[{"post":{"postId":"8047f291beb3"},"itemType":"post"},{"post":{"postId":"bf5650ff07d1"},"itemType":"post"}],"layout":4,"heading":{"fallbackTitle":"Popular
+      stories","headingBasic":{"title":"Popular stories"},"headingType":"headingBasic"}},"itemType":"section","type":"StreamItem"}],"references":{"CollectionPromo":{"2b511f95f538":{"promoId":"2b511f95f538","collectionId":"2d6450a1d29f","createdAt":1497524713252,"linkWithContentItem":{"url":"https://marahin.pl","description":"marahin.pl","buttonText":"Visit
+      my website!","tintColor":"#FFFFFFFF","colorSpectrum":{"colorPoints":[{"color":"#FFFFFFFF","point":0},{"color":"#FFEEEEEE","point":0.1},{"color":"#FFDDDDDD","point":0.2},{"color":"#FFCCCCCC","point":0.3},{"color":"#FFBABABB","point":0.4},{"color":"#FFA8A8A8","point":0.5},{"color":"#FF959696","point":0.6},{"color":"#FF818282","point":0.7},{"color":"#FF6D6E6E","point":0.8},{"color":"#FF575959","point":0.9},{"color":"#FF404242","point":1}],"backgroundColor":"#FFFFFFFF"},"isLightText":false},"itemType":"linkWithContentItem","type":"CollectionPromo"}},"Collection":{"2d6450a1d29f":{"id":"2d6450a1d29f","name":"marahin","slug":"cyfrowy-humanizm","tags":["PROGRAMMING","POLAND","TECHNOLOGY","GAMES"],"creatorId":"bb5536ac71d2","description":"blog
+      by Jasiek “marahin” Matusz","shortDescription":"blog by Jasiek “marahin” Matusz","image":{"imageId":"1*RMGwzcUVQfAm67Cwot6yiQ.jpeg","filter":"","backgroundSize":"","originalWidth":640,"originalHeight":640,"strategy":"resample","height":0,"width":0},"metadata":{"followerCount":13,"activeAt":1541509859920},"virtuals":{"permissions":{"canPublish":false,"canPublishAll":false,"canRepublish":false,"canRemove":false,"canManageAll":false,"canSubmit":false,"canEditPosts":false,"canAddWriters":false,"canViewStats":false,"canSendNewsletter":false,"canViewLockedPosts":false,"canViewCloaked":false,"canEditOwnPosts":false,"canBeAssignedAuthor":false,"canEnrollInHightower":false,"canLockPostsForMediumMembers":false,"canLockOwnPostsForMediumMembers":false,"canViewNewsletterV2Stats":false,"canCreateNewsletterV3":false},"isSubscribed":false,"isEnrolledInHightower":false,"isEligibleForHightower":false,"isSubscribedToCollectionEmails":false,"isMuted":false},"logo":{"imageId":"","filter":"","backgroundSize":"","originalWidth":0,"originalHeight":0,"strategy":"resample","height":0,"width":0},"twitterUsername":"3labMarahin","facebookPageName":"3labMarahin","publicEmail":"me@marahin.pl","domain":"blog.marahin.pl","sections":[{"type":2,"collectionHeaderMetadata":{"title":"digital
+      humanism","description":"","backgroundImage":{},"logoImage":{},"alignment":2,"layout":5}},{"type":1,"postListMetadata":{"source":1,"layout":4,"number":7,"postIds":[]}},{"type":3,"promoMetadata":{"sectionHeader":"","promoId":"2b511f95f538"}},{"type":1,"postListMetadata":{"source":2,"layout":4,"number":3,"postIds":[],"sectionHeader":"Popular
+      stories"}}],"tintColor":"#FFD6A100","lightText":false,"favicon":{"imageId":"","filter":"","backgroundSize":"","originalWidth":0,"originalHeight":0,"strategy":"resample","height":0,"width":0},"colorPalette":{"defaultBackgroundSpectrum":{"colorPoints":[{"color":"#FFAA7A00","point":0},{"color":"#FF9E7200","point":0.1},{"color":"#FF916A00","point":0.2},{"color":"#FF846100","point":0.3},{"color":"#FF775800","point":0.4},{"color":"#FF6A4F05","point":0.5},{"color":"#FF5C4509","point":0.6},{"color":"#FF4E3B0A","point":0.7},{"color":"#FF40300A","point":0.8},{"color":"#FF312508","point":0.9},{"color":"#FF211805","point":1}],"backgroundColor":"#FFFFFFFF"},"tintBackgroundSpectrum":{"colorPoints":[{"color":"#FFD6A100","point":0},{"color":"#FFDDAB28","point":0.1},{"color":"#FFE3B43F","point":0.2},{"color":"#FFEABE54","point":0.3},{"color":"#FFEFC767","point":0.4},{"color":"#FFF5D17A","point":0.5},{"color":"#FFFADA8D","point":0.6},{"color":"#FFFFE3A0","point":0.7},{"color":"#FFFFECB3","point":0.8},{"color":"#FFFFF4C7","point":0.9},{"color":"#FFFFFDDA","point":1}],"backgroundColor":"#FFD6A100"},"highlightSpectrum":{"colorPoints":[{"color":"#FFFFF0C6","point":0},{"color":"#FFFFEEBD","point":0.1},{"color":"#FFFFEBB3","point":0.2},{"color":"#FFFFE9AA","point":0.3},{"color":"#FFFFE7A0","point":0.4},{"color":"#FFFFE497","point":0.5},{"color":"#FFFFE28D","point":0.6},{"color":"#FFFFDF83","point":0.7},{"color":"#FFFFDD7A","point":0.8},{"color":"#FFFFDA70","point":0.9},{"color":"#FFFFD766","point":1}],"backgroundColor":"#FFFFFFFF"}},"navItems":[{"type":1,"title":"Programming","tagSlug":"programming","url":"https://blog.marahin.pl/tagged/programming","source":"tagSlug"},{"type":3,"title":"about
+      me","url":"https://marahin.pl"}],"colorBehavior":1,"instantArticlesState":0,"acceleratedMobilePagesState":0,"ampLogo":{"imageId":"","filter":"","backgroundSize":"","originalWidth":0,"originalHeight":0,"strategy":"resample","height":0,"width":0},"header":{"title":"digital
+      humanism","description":"","backgroundImage":{},"logoImage":{},"alignment":2,"layout":5},"paidForDomainAt":1497530005243,"subscriberCount":13,"tagline":"blog
+      by Jasiek “marahin” Matusz","type":"Collection"}},"User":{"bb5536ac71d2":{"userId":"bb5536ac71d2","name":"Jasiek
+      Matusz","username":"marahin","createdAt":1497100091197,"imageId":"1*RMGwzcUVQfAm67Cwot6yiQ.jpeg","backgroundImageId":"","bio":"Programmer,
+      gamer. Fan of Ruby and Golang.","twitterScreenName":"","allowNotes":1,"mediumMemberAt":0,"isWriterProgramEnrolled":true,"isQuarantined":false,"isSuspended":false,"isMembershipTrialEligible":true,"type":"User"}},"Post":{"1025357947d9":{"id":"1025357947d9","versionId":"7b7622abe297","creatorId":"bb5536ac71d2","homeCollectionId":"2d6450a1d29f","title":"Ruby’s
+      (not so) constants","detectedLanguage":"en","latestVersion":"7b7622abe297","latestPublishedVersion":"7b7622abe297","hasUnpublishedEdits":false,"latestRev":719,"createdAt":1539199690619,"updatedAt":1544136254935,"acceptedAt":0,"firstPublishedAt":1541509859400,"latestPublishedAt":1544136254935,"vote":false,"experimentalCss":"","displayAuthor":"","content":{"subtitle":"Ruby’s
+      constants are somewhat of an entertaining surprise if you have never seen Ruby
+      before.","postDisplay":{"coverless":true},"metaDescription":"Ruby’s constants
+      are somewhat of an entertaining surprise if you have never seen Ruby before.
+      See, unlike some of the languages, constants in Ruby are not really enforced
+      to stay constant…"},"virtuals":{"statusForCollection":"APPROVED","allowNotes":true,"previewImage":{"imageId":"1*Vsq8MsXwxwVkQkWOKwT3zA.png","filter":"","backgroundSize":"","originalWidth":1484,"originalHeight":962,"strategy":"resample","height":0,"width":0},"wordCount":870,"imageCount":1,"readingTime":3.4830188679245286,"subtitle":"Ruby’s
+      constants are somewhat of an entertaining surprise if you have never seen Ruby
+      before.","publishedInCount":1,"usersBySocialRecommends":[],"noIndex":false,"recommends":5,"isBookmarked":false,"tags":[{"slug":"development","name":"Development","postCount":30768,"metadata":{"postCount":30768,"coverImage":{"id":"0*FGmvldJ4G6WDHegk.jpeg","originalWidth":1280,"originalHeight":720,"isFeatured":true}},"type":"Tag"},{"slug":"ruby","name":"Ruby","postCount":10326,"metadata":{"postCount":10326,"coverImage":{"id":"1*3i7w36I1T7ec2a0ZA-f_9Q.png","originalWidth":2208,"originalHeight":1396,"isFeatured":true}},"type":"Tag"},{"slug":"software-development","name":"Software
+      Development","postCount":66658,"metadata":{"postCount":66658,"coverImage":{"id":"1*73NFzEe6PDGLlIUylvJfUw.jpeg","originalWidth":6000,"originalHeight":3964,"isFeatured":true}},"type":"Tag"}],"socialRecommendsCount":0,"responsesCreatedCount":0,"links":{"entries":[{"url":"https://stackoverflow.com/a/37799399","alts":[],"httpStatus":200},{"url":"https://www.rubypigeon.com/posts/a-review-of-immutability-in-ruby/","alts":[],"httpStatus":200},{"url":"http://ruby-doc.org/core-2.5.1/Array.html#method-i-3C-3C","alts":[],"httpStatus":200},{"url":"https://gist.github.com/steakknife/1a37057b3b8539f4aca3","alts":[],"httpStatus":200},{"url":"https://apidock.com/ruby/Object/object_id","alts":[],"httpStatus":200},{"url":"https://github.com/dkubb/ice_nine","alts":[],"httpStatus":200},{"url":"https://github.com/amatsuda","alts":[],"httpStatus":200},{"url":"https://bugs.ruby-lang.org/issues/8976","alts":[],"httpStatus":200},{"url":"https://www.washingtonpost.com/national/health-science/alexander-grothendieck-mathematical-genius-who-went-into-self-exile-dies-at-86/2014/11/15/1e65f69a-6cf2-11e4-9fb4-a622dae742a2_story.html?noredirect=on&utm_term=.6439af63689e","alts":[],"httpStatus":200}],"version":"0.3","generatedAt":1544136264450},"isLockedPreviewOnly":false,"metaDescription":"Ruby’s
+      constants are somewhat of an entertaining surprise if you have never seen Ruby
+      before. See, unlike some of the languages, constants in Ruby are not really
+      enforced to stay constant…","totalClapCount":8,"sectionCount":2,"readingList":0,"topics":[]},"coverless":true,"slug":"rubys-not-so-constants","translationSourcePostId":"","translationSourceCreatorId":"","isApprovedTranslation":false,"inResponseToPostId":"","inResponseToRemovedAt":0,"isTitleSynthesized":false,"allowResponses":true,"importedUrl":"","importedPublishedAt":0,"visibility":0,"uniqueSlug":"rubys-not-so-constants-1025357947d9","previewContent":{"bodyModel":{"paragraphs":[{"name":"previewImage","type":4,"text":"","layout":10,"metadata":{"id":"1*Vsq8MsXwxwVkQkWOKwT3zA.png","originalWidth":1484,"originalHeight":962,"isFeatured":true}},{"name":"previewTitle","type":3,"text":"Ruby’s
+      (not so) constants","alignment":1},{"name":"previewSubtitle","type":13,"text":"Ruby’s
+      constants are somewhat of an entertaining surprise if you have never…","alignment":1}],"sections":[{"startIndex":0}]},"isFullContent":false,"subtitle":"Ruby’s
+      constants are somewhat of an entertaining surprise if you have never seen Ruby
+      before."},"license":3,"inResponseToMediaResourceId":"","canonicalUrl":"","approvedHomeCollectionId":"2d6450a1d29f","newsletterId":"","webCanonicalUrl":"","mediumUrl":"","migrationId":"","notifyFollowers":true,"notifyTwitter":false,"notifyFacebook":false,"responseHiddenOnParentPostAt":0,"isSeries":false,"isSubscriptionLocked":false,"seriesLastAppendedAt":0,"audioVersionDurationSec":0,"sequenceId":"","isEligibleForRevenue":false,"isBlockedFromHightower":false,"deletedAt":0,"lockedPostSource":0,"hightowerMinimumGuaranteeStartsAt":0,"hightowerMinimumGuaranteeEndsAt":0,"featureLockRequestAcceptedAt":0,"mongerRequestType":1,"layerCake":0,"socialTitle":"","socialDek":"","editorialPreviewTitle":"","editorialPreviewDek":"","curationEligibleAt":0,"isProxyPost":false,"proxyPostFaviconUrl":"","proxyPostProviderName":"","proxyPostType":0,"isSuspended":false,"isLimitedState":false,"seoTitle":"","previewContent2":{"bodyModel":{"paragraphs":[{"name":"6c20","type":3,"text":"Ruby’s
+      (not so) constants","markups":[]},{"name":"90a4","type":4,"text":"Alexander
+      Grothendieck, standing at the blackboard, during a lesson in the 1960s at IHES
+      (High Scientific Studies Institute) near Paris. (High Scientific Studies Institute
+      via AP) (source: Washington Post)","markups":[{"type":3,"start":189,"end":204,"href":"https://www.washingtonpost.com/national/health-science/alexander-grothendieck-mathematical-genius-who-went-into-self-exile-dies-at-86/2014/11/15/1e65f69a-6cf2-11e4-9fb4-a622dae742a2_story.html?noredirect=on&utm_term=.6439af63689e","title":"","rel":"","anchorType":0}],"layout":5,"metadata":{"id":"1*Vsq8MsXwxwVkQkWOKwT3zA.png","originalWidth":1484,"originalHeight":962,"isFeatured":true}},{"name":"3b13","type":1,"text":"Ruby’s
+      constants are somewhat of an entertaining surprise if you have never dug into
+      this subject before, or seen Ruby at all. See, unlike many other languages,
+      constants in Ruby are not really enforced to stay constant during the program
+      runtime. Wait, what?\nIf you try to re-assign the constant, you will get a warning
+      though:","markups":[{"type":2,"start":248,"end":259}],"hasDropCap":true}],"sections":[{"startIndex":0}]},"isFullContent":false,"subtitle":"Ruby’s
+      constants are somewhat of an entertaining surprise if you have never seen Ruby
+      before."},"cardType":0,"isDistributionAlertDismissed":false,"isShortform":false,"shortformType":0,"type":"Post"},"bac709e37e62":{"id":"bac709e37e62","versionId":"af6861ef5d54","creatorId":"bb5536ac71d2","homeCollectionId":"2d6450a1d29f","title":"Why
+      am I dumping dedicated servers","detectedLanguage":"en","latestVersion":"af6861ef5d54","latestPublishedVersion":"af6861ef5d54","hasUnpublishedEdits":false,"latestRev":496,"createdAt":1520686583800,"updatedAt":1525868331817,"acceptedAt":0,"firstPublishedAt":1520689465549,"latestPublishedAt":1525868330468,"vote":false,"experimentalCss":"","displayAuthor":"","content":{"subtitle":"and
+      why should you — part 1","postDisplay":{"coverless":true}},"virtuals":{"statusForCollection":"APPROVED","allowNotes":true,"previewImage":{"imageId":"1*JVmZNEVK0iaczg9q3VGvxw.jpeg","filter":"","backgroundSize":"","originalWidth":1200,"originalHeight":810,"strategy":"resample","height":0,"width":0},"wordCount":686,"imageCount":1,"readingTime":2.788679245283019,"subtitle":"and
+      why should you — part 1","publishedInCount":1,"usersBySocialRecommends":[],"noIndex":false,"recommends":3,"isBookmarked":false,"tags":[{"slug":"devops","name":"DevOps","postCount":21202,"metadata":{"postCount":21202,"coverImage":{"id":"0*zRkIlb8LvOQHP01u.png","originalWidth":492,"originalHeight":385,"isFeatured":true,"alt":"Docker
+      engine image"}},"type":"Tag"},{"slug":"self-hosted","name":"Self Hosted","postCount":66,"metadata":{"postCount":66,"coverImage":{"id":"1*Bxty1VICQ5czvcGymLAhaA.png","originalWidth":2224,"originalHeight":1010}},"type":"Tag"},{"slug":"programming","name":"Programming","postCount":107797,"metadata":{"postCount":107797,"coverImage":{"id":"1*KpDOKMFAgDWaGTQHL0r70g.png","originalWidth":2721,"originalHeight":1021,"isFeatured":true}},"type":"Tag"},{"slug":"web-hosting","name":"Web
+      Hosting","postCount":5994,"metadata":{"postCount":5994,"coverImage":{"id":"0*3GGwVUPok6t5nrWF.jpg","originalWidth":1166,"originalHeight":888,"isFeatured":true}},"type":"Tag"},{"slug":"efficiency","name":"Efficiency","postCount":2825,"metadata":{"postCount":2825,"coverImage":{"id":"0*EhxOCmXGoyAW33um","originalWidth":3648,"originalHeight":5472,"isFeatured":true,"unsplashPhotoId":"L-uGw_mR6qA"}},"type":"Tag"}],"socialRecommendsCount":0,"responsesCreatedCount":0,"links":{"entries":[{"url":"http://sentry.io","alts":[],"httpStatus":200},{"url":"https://www.instagram.com/chuffek/?hl=pl","alts":[{"type":2,"url":"instagram://user?username=chuffek"},{"type":3,"url":"https://www.instagram.com/_u/chuffek/"}],"httpStatus":200},{"url":"http://3lab.re","alts":[],"httpStatus":200}],"version":"0.3","generatedAt":1525868332132},"isLockedPreviewOnly":false,"metaDescription":"","totalClapCount":81,"sectionCount":3,"readingList":0,"topics":[]},"coverless":true,"slug":"why-am-i-dumping-dedicated-servers","translationSourcePostId":"","translationSourceCreatorId":"","isApprovedTranslation":false,"inResponseToPostId":"","inResponseToRemovedAt":0,"isTitleSynthesized":true,"allowResponses":true,"importedUrl":"","importedPublishedAt":0,"visibility":0,"uniqueSlug":"why-am-i-dumping-dedicated-servers-bac709e37e62","previewContent":{"bodyModel":{"paragraphs":[{"name":"ac30","type":3,"text":"Why
+      am I dumping dedicated servers","markups":[],"alignment":1},{"name":"7a84","type":13,"text":"and
+      why should you — part 1","markups":[],"alignment":1},{"name":"0dd5","type":4,"text":"","markups":[],"layout":10,"metadata":{"id":"1*JVmZNEVK0iaczg9q3VGvxw.jpeg","originalWidth":1200,"originalHeight":810}}],"sections":[{"startIndex":0}]},"isFullContent":false,"subtitle":"and
+      why should you — part 1"},"license":1,"inResponseToMediaResourceId":"","canonicalUrl":"","approvedHomeCollectionId":"2d6450a1d29f","newsletterId":"","webCanonicalUrl":"","mediumUrl":"","migrationId":"","notifyFollowers":true,"notifyTwitter":false,"notifyFacebook":false,"responseHiddenOnParentPostAt":0,"isSeries":false,"isSubscriptionLocked":false,"seriesLastAppendedAt":0,"audioVersionDurationSec":0,"sequenceId":"","isEligibleForRevenue":false,"isBlockedFromHightower":false,"deletedAt":0,"lockedPostSource":0,"hightowerMinimumGuaranteeStartsAt":0,"hightowerMinimumGuaranteeEndsAt":0,"featureLockRequestAcceptedAt":0,"mongerRequestType":1,"layerCake":0,"socialTitle":"","socialDek":"","editorialPreviewTitle":"","editorialPreviewDek":"","curationEligibleAt":0,"isProxyPost":false,"proxyPostFaviconUrl":"","proxyPostProviderName":"","proxyPostType":0,"isSuspended":false,"isLimitedState":false,"seoTitle":"","previewContent2":{"bodyModel":{"paragraphs":[{"name":"ac30","type":3,"text":"Why
+      am I dumping dedicated servers","markups":[]},{"name":"7a84","type":13,"text":"and
+      why should you — part 1","markups":[]},{"name":"0dd5","type":4,"text":"Being
+      mobile was difficult back in the day (yes, completely unrelated).","markups":[],"layout":3,"metadata":{"id":"1*JVmZNEVK0iaczg9q3VGvxw.jpeg","originalWidth":1200,"originalHeight":810}},{"name":"ce11","type":11,"text":"This
+      is what you’ll eventually get if you follow my self-hosting pattern.","markups":[],"layout":4,"iframe":{"mediaResourceId":"199fffcdc299d30907d85e3d1d0e10b0","iframeWidth":640,"iframeHeight":640,"thumbnailUrl":"https://i.embed.ly/1/image?url=https%3A%2F%2Fscontent-iad3-1.cdninstagram.com%2Fvp%2F8f78e60f3e9e18ca3e46611081ef285f%2F5B323AB9%2Ft51.2885-15%2Fs640x640%2Fsh0.08%2Fe35%2F18580667_271843766611476_5872162094060666880_n.jpg&key=a19fcc184b9711e1b4764040d3dc5c07"}},{"name":"e7c9","type":1,"text":"For
+      the past few years I loved tinkering with servers. I liked having a machine,
+      far, far away that has a huge performance potential to use.","markups":[]},{"name":"ca82","type":1,"text":"I
+      liked the fact that any service that can be self-hosted is in my reach. \nWhen
+      I discovered Sentry, first thing I checked is if they allow self hosting free
+      of cost. And they did! So since then I was doing that constantly to any new
+      software that I discovered.","markups":[{"type":3,"start":93,"end":99,"href":"http://sentry.io","title":"","rel":"","anchorType":0}]}],"sections":[{"startIndex":0}]},"isFullContent":false,"subtitle":"and
+      why should you — part 1"},"cardType":0,"isDistributionAlertDismissed":false,"isShortform":false,"shortformType":0,"type":"Post"},"74fd7501b011":{"id":"74fd7501b011","versionId":"41341a04d2ab","creatorId":"bb5536ac71d2","homeCollectionId":"2d6450a1d29f","title":"Ruby
+      — Convert Array to Hash","detectedLanguage":"en","latestVersion":"41341a04d2ab","latestPublishedVersion":"41341a04d2ab","hasUnpublishedEdits":false,"latestRev":353,"createdAt":1506087611538,"updatedAt":1527483205420,"acceptedAt":0,"firstPublishedAt":1506089674588,"latestPublishedAt":1506091220321,"vote":false,"experimentalCss":"","displayAuthor":"","content":{"subtitle":"with
+      Splat operator","postDisplay":{"coverless":true}},"virtuals":{"statusForCollection":"APPROVED","allowNotes":true,"previewImage":{"imageId":"1*onqZycyLDDVfxclqLhq7Jg.jpeg","filter":"","backgroundSize":"","originalWidth":480,"originalHeight":372,"strategy":"resample","height":0,"width":0},"wordCount":427,"imageCount":2,"readingTime":1.9946540880503145,"subtitle":"with
+      Splat operator","publishedInCount":1,"usersBySocialRecommends":[],"noIndex":false,"recommends":3,"isBookmarked":false,"tags":[{"slug":"ruby","name":"Ruby","postCount":10326,"metadata":{"postCount":10326,"coverImage":{"id":"1*3i7w36I1T7ec2a0ZA-f_9Q.png","originalWidth":2208,"originalHeight":1396,"isFeatured":true}},"type":"Tag"},{"slug":"programming","name":"Programming","postCount":107797,"metadata":{"postCount":107797,"coverImage":{"id":"1*KpDOKMFAgDWaGTQHL0r70g.png","originalWidth":2721,"originalHeight":1021,"isFeatured":true}},"type":"Tag"},{"slug":"ruby-on-rails","name":"Ruby
+      on Rails","postCount":9133,"metadata":{"postCount":9133,"coverImage":{"id":"1*3i7w36I1T7ec2a0ZA-f_9Q.png","originalWidth":2208,"originalHeight":1396,"isFeatured":true}},"type":"Tag"}],"socialRecommendsCount":0,"responsesCreatedCount":0,"links":{"entries":[{"url":"http://www.monkeyandcrow.com/blog/the_strange_ruby_splat/","alts":[],"httpStatus":200},{"url":"http://searcharchives.vancouver.ca/b-c-telephone-operator","alts":[],"httpStatus":200}],"version":"0.3","generatedAt":1506091241582},"isLockedPreviewOnly":false,"metaDescription":"","totalClapCount":3,"sectionCount":1,"readingList":0,"topics":[]},"coverless":true,"slug":"ruby-array-to-hash","translationSourcePostId":"","translationSourceCreatorId":"","isApprovedTranslation":false,"inResponseToPostId":"","inResponseToRemovedAt":0,"isTitleSynthesized":true,"allowResponses":true,"importedUrl":"","importedPublishedAt":0,"visibility":0,"uniqueSlug":"ruby-array-to-hash-74fd7501b011","previewContent":{"bodyModel":{"paragraphs":[{"name":"previewImage","type":4,"text":"","layout":10,"metadata":{"id":"1*onqZycyLDDVfxclqLhq7Jg.jpeg","originalWidth":480,"originalHeight":372,"isFeatured":true}},{"name":"37ce","type":3,"text":"Ruby
+      — Convert Array to Hash","markups":[],"alignment":1},{"name":"d189","type":13,"text":"with
+      Splat operator","markups":[],"alignment":1},{"name":"6b27","type":3,"text":"The
+      magic * operator","markups":[],"alignment":1}],"sections":[{"startIndex":0}]},"isFullContent":false,"subtitle":"with
+      Splat operator"},"license":7,"inResponseToMediaResourceId":"","canonicalUrl":"","approvedHomeCollectionId":"2d6450a1d29f","newsletterId":"","webCanonicalUrl":"","mediumUrl":"","migrationId":"","notifyFollowers":true,"notifyTwitter":false,"notifyFacebook":false,"responseHiddenOnParentPostAt":0,"isSeries":false,"isSubscriptionLocked":false,"seriesLastAppendedAt":0,"audioVersionDurationSec":0,"sequenceId":"","isEligibleForRevenue":false,"isBlockedFromHightower":false,"deletedAt":0,"lockedPostSource":0,"hightowerMinimumGuaranteeStartsAt":0,"hightowerMinimumGuaranteeEndsAt":0,"featureLockRequestAcceptedAt":0,"mongerRequestType":1,"layerCake":0,"socialTitle":"","socialDek":"","editorialPreviewTitle":"","editorialPreviewDek":"","curationEligibleAt":0,"isProxyPost":false,"proxyPostFaviconUrl":"","proxyPostProviderName":"","proxyPostType":0,"isSuspended":false,"isLimitedState":false,"seoTitle":"","previewContent2":{"bodyModel":{"paragraphs":[{"name":"37ce","type":3,"text":"Ruby
+      — Convert Array to Hash","markups":[]},{"name":"d189","type":13,"text":"with
+      Splat operator","markups":[]},{"name":"d522","type":4,"text":"B.C. Telephone
+      OPERATOR (pun intended! sorry) (Public Domain)","markups":[{"type":3,"start":0,"end":61,"href":"http://searcharchives.vancouver.ca/b-c-telephone-operator","title":"","rel":"noopener","anchorType":0}],"layout":1,"metadata":{"id":"1*onqZycyLDDVfxclqLhq7Jg.jpeg","originalWidth":480,"originalHeight":372,"isFeatured":true}},{"name":"6b27","type":3,"text":"The
+      magic * operator","markups":[]},{"name":"8bde","type":13,"text":"Here be TLDR;
+      a simple explanation is down below.","markups":[]},{"name":"fd4a","type":1,"text":"Hash[*[''key_1'',
+      ''value_for_key_1'', ''key_2'', ''value_for_key_2'']]","markups":[{"type":10,"start":0,"end":63}]},{"name":"0131","type":4,"text":"","markups":[],"layout":4,"metadata":{"id":"1*HFaO0DeMswx2siYmRnMEyw.jpeg","originalWidth":700,"originalHeight":525}},{"name":"81ab","type":13,"text":"wat","markups":[]},{"name":"e3cf","type":1,"text":"Even
+      though it can be used in many ways, the only real example of a great use case
+      for me was mapping array to a hash.","markups":[{"type":3,"start":12,"end":39,"href":"http://www.monkeyandcrow.com/blog/the_strange_ruby_splat/","title":"","rel":"","anchorType":0}]},{"name":"555d","type":1,"text":"For
+      instance, let’s assume that you’re fetching some API data — some kind of currency
+      service that will return information about few currencies and per dollar ratio:","markups":[]}],"sections":[{"startIndex":0}]},"isFullContent":false,"subtitle":"with
+      Splat operator"},"cardType":0,"isDistributionAlertDismissed":false,"isShortform":false,"shortformType":0,"type":"Post"},"e017ff182eb5":{"id":"e017ff182eb5","versionId":"f7b8153de2e9","creatorId":"bb5536ac71d2","homeCollectionId":"2d6450a1d29f","title":"How
+      to reset TeamSpeak’s query password","detectedLanguage":"en","latestVersion":"f7b8153de2e9","latestPublishedVersion":"f7b8153de2e9","hasUnpublishedEdits":false,"latestRev":77,"createdAt":1500989024388,"updatedAt":1520626884714,"acceptedAt":0,"firstPublishedAt":1501057861407,"latestPublishedAt":1506089990319,"vote":false,"experimentalCss":"","displayAuthor":"","content":{"subtitle":"I
+      often forget my query password. Especially when I reset my desktop computer,
+      format a drive or do anything related to data loss.","postDisplay":{"coverless":true}},"virtuals":{"statusForCollection":"APPROVED","allowNotes":true,"previewImage":{"imageId":"","filter":"","backgroundSize":"","originalWidth":0,"originalHeight":0,"strategy":"resample","height":0,"width":0},"wordCount":250,"imageCount":1,"readingTime":1.1433962264150943,"subtitle":"I
+      often forget my query password. Especially when I reset my desktop computer,
+      format a drive or do anything related to data loss.","publishedInCount":1,"usersBySocialRecommends":[],"noIndex":false,"recommends":0,"isBookmarked":false,"tags":[{"slug":"teamspeak","name":"Teamspeak","postCount":10,"metadata":{"postCount":10,"coverImage":{"id":"1*7D__vZWqPV9fRmeJhwy7qA.jpeg","originalWidth":1300,"originalHeight":386,"isFeatured":true}},"type":"Tag"},{"slug":"server-query","name":"Server
+      Query","postCount":0,"metadata":{"postCount":0},"type":"Tag"},{"slug":"teamspeak-privilege","name":"Teamspeak
+      Privilege","postCount":0,"metadata":{"postCount":0},"type":"Tag"},{"slug":"teamspeak-admin","name":"Teamspeak
+      Admin","postCount":0,"metadata":{"postCount":0},"type":"Tag"},{"slug":"telnet","name":"Telnet","postCount":19,"metadata":{"postCount":19,"coverImage":{"id":"1*D58ktrYyJOrRWJzLVj830A.png","originalWidth":1966,"originalHeight":1298,"isFeatured":true}},"type":"Tag"}],"socialRecommendsCount":0,"responsesCreatedCount":2,"links":{"entries":[],"version":"0.3","generatedAt":1506089999924},"isLockedPreviewOnly":false,"metaDescription":"","totalClapCount":0,"sectionCount":1,"readingList":0,"topics":[]},"coverless":true,"slug":"how-to-reset-teamspeaks-query-password","translationSourcePostId":"","translationSourceCreatorId":"","isApprovedTranslation":false,"inResponseToPostId":"","inResponseToRemovedAt":0,"isTitleSynthesized":true,"allowResponses":true,"importedUrl":"","importedPublishedAt":0,"visibility":0,"uniqueSlug":"how-to-reset-teamspeaks-query-password-e017ff182eb5","previewContent":{"bodyModel":{"paragraphs":[{"name":"5fa1","type":3,"text":"How
+      to reset TeamSpeak’s query password","markups":[],"alignment":1},{"name":"27d0","type":1,"text":"I
+      often forget my query password. Especially when I reset my desktop computer,
+      format a drive or do anything related to data loss.","markups":[],"alignment":1},{"name":"21d4","type":1,"text":"This
+      is supposed to be a quick walkthrough on how to approach the issue and retrieve
+      full privileged…","markups":[],"alignment":1}],"sections":[{"startIndex":0}]},"isFullContent":false,"subtitle":"I
+      often forget my query password. Especially when I reset my desktop computer,
+      format a drive or do anything related to data loss."},"license":7,"inResponseToMediaResourceId":"","canonicalUrl":"","approvedHomeCollectionId":"2d6450a1d29f","newsletterId":"","webCanonicalUrl":"","mediumUrl":"","migrationId":"","notifyFollowers":true,"notifyTwitter":false,"notifyFacebook":false,"responseHiddenOnParentPostAt":0,"isSeries":false,"isSubscriptionLocked":false,"seriesLastAppendedAt":0,"audioVersionDurationSec":0,"sequenceId":"","isEligibleForRevenue":false,"isBlockedFromHightower":false,"deletedAt":0,"lockedPostSource":0,"hightowerMinimumGuaranteeStartsAt":0,"hightowerMinimumGuaranteeEndsAt":0,"featureLockRequestAcceptedAt":0,"mongerRequestType":1,"layerCake":0,"socialTitle":"","socialDek":"","editorialPreviewTitle":"","editorialPreviewDek":"","curationEligibleAt":0,"isProxyPost":false,"proxyPostFaviconUrl":"","proxyPostProviderName":"","proxyPostType":0,"isSuspended":false,"isLimitedState":false,"seoTitle":"","previewContent2":{"bodyModel":{"paragraphs":[{"name":"5fa1","type":3,"text":"How
+      to reset TeamSpeak’s query password","markups":[]},{"name":"8700","type":4,"text":"","markups":[],"layout":1,"metadata":{"id":"1*bM-Jnmc1pbJmX9dShD6Tiw.png","originalWidth":547,"originalHeight":160}},{"name":"27d0","type":1,"text":"I
+      often forget my query password. Especially when I reset my desktop computer,
+      format a drive or do anything related to data loss.","markups":[]},{"name":"21d4","type":1,"text":"This
+      is supposed to be a quick walkthrough on how to approach the issue and retrieve
+      full privileged group.","markups":[]},{"name":"5991","type":10,"text":"If you
+      have access to server query (over telnet), go to point 6.","markups":[{"type":1,"start":0,"end":64}]},{"name":"1217","type":10,"text":"If
+      you have the password, but not the login, remember that default telnet username
+      is serveradmin.","markups":[{"type":2,"start":86,"end":97}]},{"name":"c2fe","type":10,"text":"Edit
+      file named ts3server_startscript.sh, find “COMMANDLINE_PARAMETERS”, and append
+      “=$2” to it.","markups":[{"type":2,"start":16,"end":40},{"type":2,"start":48,"end":70},{"type":2,"start":85,"end":88}]}],"sections":[{"startIndex":0}]},"isFullContent":false,"subtitle":"I
+      often forget my query password. Especially when I reset my desktop computer,
+      format a drive or do anything related to data loss."},"cardType":0,"isDistributionAlertDismissed":false,"isShortform":false,"shortformType":0,"type":"Post"},"6e476225887c":{"id":"6e476225887c","versionId":"9e5e096128af","creatorId":"bb5536ac71d2","homeCollectionId":"2d6450a1d29f","title":"Golang’s
+      Robotgo library — handle sequential mouse click","detectedLanguage":"en","latestVersion":"9e5e096128af","latestPublishedVersion":"9e5e096128af","hasUnpublishedEdits":false,"latestRev":318,"createdAt":1500987420527,"updatedAt":1524606962797,"acceptedAt":0,"firstPublishedAt":1500988872382,"latestPublishedAt":1500988872382,"vote":false,"experimentalCss":"","displayAuthor":"","content":{"subtitle":"If
+      you are interested in Golang’s development, you most likely heard about go-vgo/robotgo
+      — a very useful library that allows you to…","postDisplay":{"coverless":true}},"virtuals":{"statusForCollection":"APPROVED","allowNotes":true,"previewImage":{"imageId":"1*6VP8iHqhQ5seAg3eNamGeA.png","filter":"","backgroundSize":"","originalWidth":364,"originalHeight":335,"strategy":"resample","height":0,"width":0},"wordCount":476,"imageCount":3,"readingTime":2.34622641509434,"subtitle":"If
+      you are interested in Golang’s development, you most likely heard about go-vgo/robotgo
+      — a very useful library that allows you to…","publishedInCount":1,"usersBySocialRecommends":[],"noIndex":false,"recommends":0,"isBookmarked":false,"tags":[{"slug":"golang","name":"Golang","postCount":7008,"metadata":{"postCount":7008,"coverImage":{"id":"1*tQ9afXMR41T0IoZq_qPOnQ.jpeg","originalWidth":4000,"originalHeight":3000,"isFeatured":true}},"type":"Tag"},{"slug":"robotgo","name":"Robotgo","postCount":0,"metadata":{"postCount":0,"coverImage":{"id":"1*6VP8iHqhQ5seAg3eNamGeA.png","originalWidth":364,"originalHeight":335,"isFeatured":true}},"type":"Tag"},{"slug":"emulation","name":"Emulation","postCount":65,"metadata":{"postCount":65,"coverImage":{"id":"1*WqccOxEN0E_KXExj75Ng2A.jpeg","originalWidth":1029,"originalHeight":406,"isFeatured":true}},"type":"Tag"},{"slug":"go-mouse-click","name":"Go
+      Mouse Click","postCount":0,"metadata":{"postCount":0,"coverImage":{"id":"1*6VP8iHqhQ5seAg3eNamGeA.png","originalWidth":364,"originalHeight":335,"isFeatured":true}},"type":"Tag"},{"slug":"robotgo-mouse","name":"Robotgo
+      Mouse","postCount":0,"metadata":{"postCount":0,"coverImage":{"id":"1*6VP8iHqhQ5seAg3eNamGeA.png","originalWidth":364,"originalHeight":335,"isFeatured":true}},"type":"Tag"}],"socialRecommendsCount":0,"responsesCreatedCount":0,"links":{"entries":[{"url":"https://github.com/go-vgo/robotgo","alts":[],"httpStatus":200}],"version":"0.3","generatedAt":1500988878482},"isLockedPreviewOnly":false,"metaDescription":"","totalClapCount":0,"sectionCount":1,"readingList":0,"topics":[]},"coverless":true,"slug":"golangs-robotgo-library-handle-sequential-mouse-click","translationSourcePostId":"","translationSourceCreatorId":"","isApprovedTranslation":false,"inResponseToPostId":"","inResponseToRemovedAt":0,"isTitleSynthesized":true,"allowResponses":true,"importedUrl":"","importedPublishedAt":0,"visibility":0,"uniqueSlug":"golangs-robotgo-library-handle-sequential-mouse-click-6e476225887c","previewContent":{"bodyModel":{"paragraphs":[{"name":"previewImage","type":4,"text":"","layout":10,"metadata":{"id":"1*6VP8iHqhQ5seAg3eNamGeA.png","originalWidth":364,"originalHeight":335,"isFeatured":true}},{"name":"235d","type":3,"text":"Golang’s
+      Robotgo library — handle sequential mouse click","markups":[],"alignment":1}],"sections":[{"startIndex":0}]},"isFullContent":false,"subtitle":"If
+      you are interested in Golang’s development, you most likely heard about go-vgo/robotgo
+      — a very useful library that allows you to…"},"license":0,"inResponseToMediaResourceId":"","canonicalUrl":"","approvedHomeCollectionId":"2d6450a1d29f","newsletterId":"","webCanonicalUrl":"","mediumUrl":"","migrationId":"","notifyFollowers":true,"notifyTwitter":false,"notifyFacebook":false,"responseHiddenOnParentPostAt":0,"isSeries":false,"isSubscriptionLocked":false,"seriesLastAppendedAt":0,"audioVersionDurationSec":0,"sequenceId":"","isEligibleForRevenue":false,"isBlockedFromHightower":false,"deletedAt":0,"lockedPostSource":0,"hightowerMinimumGuaranteeStartsAt":0,"hightowerMinimumGuaranteeEndsAt":0,"featureLockRequestAcceptedAt":0,"mongerRequestType":1,"layerCake":0,"socialTitle":"","socialDek":"","editorialPreviewTitle":"","editorialPreviewDek":"","curationEligibleAt":0,"isProxyPost":false,"proxyPostFaviconUrl":"","proxyPostProviderName":"","proxyPostType":0,"isSuspended":false,"isLimitedState":false,"seoTitle":"","previewContent2":{"bodyModel":{"paragraphs":[{"name":"235d","type":3,"text":"Golang’s
+      Robotgo library — handle sequential mouse click","markups":[]},{"name":"b242","type":4,"text":"","markups":[],"layout":1,"metadata":{"id":"1*jLsiafBsj4Jietv7utXcww.png","originalWidth":491,"originalHeight":316}},{"name":"32e8","type":1,"text":"If
+      you are interested in Golang’s development, you most likely heard about go-vgo/robotgo
+      — a very useful library that allows you to automate tasks and handle various
+      desktop / window / event specific actions with Go.","markups":[{"type":3,"start":75,"end":89,"href":"https://github.com/go-vgo/robotgo","title":"","rel":"","anchorType":0}]},{"name":"dcf4","type":1,"text":"I
+      personally used it couple of times for a very repetitive tasks, such as… well,
+      video games; for instance in a game where you have to cast spells to get your
+      magic skill going. I made go cast the spells for me.","markups":[]}],"sections":[{"startIndex":0}]},"isFullContent":false,"subtitle":"If
+      you are interested in Golang’s development, you most likely heard about go-vgo/robotgo
+      — a very useful library that allows you to…"},"cardType":0,"isDistributionAlertDismissed":false,"isShortform":false,"shortformType":0,"type":"Post"},"4b5e5cc09a39":{"id":"4b5e5cc09a39","versionId":"9a292d10b216","creatorId":"bb5536ac71d2","homeCollectionId":"2d6450a1d29f","title":"Golang
+      and Postgres auto-reconnect","detectedLanguage":"en","latestVersion":"9a292d10b216","latestPublishedVersion":"9a292d10b216","hasUnpublishedEdits":false,"latestRev":215,"createdAt":1497542495838,"updatedAt":1528929212201,"acceptedAt":0,"firstPublishedAt":1497543490311,"latestPublishedAt":1497543526843,"vote":false,"experimentalCss":"","displayAuthor":"","content":{"subtitle":"When
+      you write software that is supposed to be running constantly (24/7), and it
+      also makes use of Postgres database, you want to make sure…","postDisplay":{"coverless":true}},"virtuals":{"statusForCollection":"APPROVED","allowNotes":true,"previewImage":{"imageId":"1*b5dd75H-fnjCCOMXlfTdcw.png","filter":"","backgroundSize":"","originalWidth":600,"originalHeight":600,"strategy":"resample","height":0,"width":0},"wordCount":396,"imageCount":1,"readingTime":1.6943396226415093,"subtitle":"When
+      you write software that is supposed to be running constantly (24/7), and it
+      also makes use of Postgres database, you want to make sure…","publishedInCount":1,"usersBySocialRecommends":[],"noIndex":false,"recommends":9,"isBookmarked":false,"tags":[{"slug":"golang","name":"Golang","postCount":7008,"metadata":{"postCount":7008,"coverImage":{"id":"1*tQ9afXMR41T0IoZq_qPOnQ.jpeg","originalWidth":4000,"originalHeight":3000,"isFeatured":true}},"type":"Tag"},{"slug":"go","name":"Go","postCount":2624,"metadata":{"postCount":2624,"coverImage":{"id":"1*CieXcIc9Bv11JWFOECjHyw.png","originalWidth":5001,"originalHeight":2713,"isFeatured":true}},"type":"Tag"},{"slug":"postgres","name":"Postgres","postCount":2144,"metadata":{"postCount":2144,"coverImage":{"id":"0*ABgU9LcYbbI861jw","originalWidth":1600,"originalHeight":1200,"isFeatured":true}},"type":"Tag"},{"slug":"database","name":"Database","postCount":8301,"metadata":{"postCount":8301,"coverImage":{"id":"0*D3gRPl7eWfc3h9pI","originalWidth":10800,"originalHeight":7200,"isFeatured":true,"alt":"Scientist
+      on doctoring data, maybe SQL?","unsplashPhotoId":"pCqzMe04s8g"}},"type":"Tag"},{"slug":"programming","name":"Programming","postCount":107797,"metadata":{"postCount":107797,"coverImage":{"id":"1*KpDOKMFAgDWaGTQHL0r70g.png","originalWidth":2721,"originalHeight":1021,"isFeatured":true}},"type":"Tag"}],"socialRecommendsCount":0,"responsesCreatedCount":1,"links":{"entries":[{"url":"https://github.com/jackc/pgx","alts":[],"httpStatus":200}],"version":"0.3","generatedAt":1497543527175},"isLockedPreviewOnly":false,"metaDescription":"","totalClapCount":10,"sectionCount":1,"readingList":0,"topics":[]},"coverless":true,"slug":"golang-postgres-auto-reconnect","translationSourcePostId":"","translationSourceCreatorId":"","isApprovedTranslation":false,"inResponseToPostId":"","inResponseToRemovedAt":0,"isTitleSynthesized":true,"allowResponses":true,"importedUrl":"","importedPublishedAt":0,"visibility":0,"uniqueSlug":"golang-postgres-auto-reconnect-4b5e5cc09a39","previewContent":{"bodyModel":{"paragraphs":[{"name":"3d3c","type":3,"text":"Golang
+      and Postgres auto-reconnect","markups":[],"alignment":1},{"name":"f911","type":1,"text":"When
+      you write software that is supposed to be running constantly (24/7), and it
+      also makes use of Postgres database, you want to make sure that it won’t fail
+      randomly if the connection was dropped.","markups":[{"type":1,"start":118,"end":197}],"alignment":1}],"sections":[{"startIndex":0}]},"isFullContent":false,"subtitle":"When
+      you write software that is supposed to be running constantly (24/7), and it
+      also makes use of Postgres database, you want to make sure…"},"license":0,"inResponseToMediaResourceId":"","canonicalUrl":"","approvedHomeCollectionId":"2d6450a1d29f","newsletterId":"","webCanonicalUrl":"","mediumUrl":"","migrationId":"","notifyFollowers":true,"notifyTwitter":false,"notifyFacebook":false,"responseHiddenOnParentPostAt":0,"isSeries":false,"isSubscriptionLocked":false,"seriesLastAppendedAt":0,"audioVersionDurationSec":0,"sequenceId":"","isEligibleForRevenue":false,"isBlockedFromHightower":false,"deletedAt":0,"lockedPostSource":0,"hightowerMinimumGuaranteeStartsAt":0,"hightowerMinimumGuaranteeEndsAt":0,"featureLockRequestAcceptedAt":0,"mongerRequestType":1,"layerCake":0,"socialTitle":"","socialDek":"","editorialPreviewTitle":"","editorialPreviewDek":"","curationEligibleAt":0,"isProxyPost":false,"proxyPostFaviconUrl":"","proxyPostProviderName":"","proxyPostType":0,"isSuspended":false,"isLimitedState":false,"seoTitle":"","previewContent2":{"bodyModel":{"paragraphs":[{"name":"3d3c","type":3,"text":"Golang
+      and Postgres auto-reconnect","markups":[]},{"name":"f911","type":1,"text":"When
+      you write software that is supposed to be running constantly (24/7), and it
+      also makes use of Postgres database, you want to make sure that it won’t fail
+      randomly if the connection was dropped.","markups":[{"type":1,"start":118,"end":197}]},{"name":"fbb2","type":4,"text":"","markups":[],"layout":4,"metadata":{"id":"1*b5dd75H-fnjCCOMXlfTdcw.png","originalWidth":600,"originalHeight":600}},{"name":"d2b9","type":1,"text":"Make
+      it a Postgres fault, ISP, any of the sides — if your connection goes down, you
+      don’t want to have to restart the program to make it connect to the database
+      again.","markups":[]},{"name":"0bf2","type":1,"text":"Usual flow that I’ve been
+      using is to create a simple function that will make sure the connection exists
+      (if it does not — start it and check again), and return it. It’s kinda Ruby
+      way, where you pop a function name and then methods on it, basicly operating
+      on an object, but non-explicitly defined.","markups":[]}],"sections":[{"startIndex":0}]},"isFullContent":false,"subtitle":"When
+      you write software that is supposed to be running constantly (24/7), and it
+      also makes use of Postgres database, you want to make sure…"},"cardType":0,"isDistributionAlertDismissed":false,"isShortform":false,"shortformType":0,"type":"Post"},"444baf1b8d0":{"id":"444baf1b8d0","versionId":"196cdc8f3c1f","creatorId":"bb5536ac71d2","homeCollectionId":"2d6450a1d29f","title":"Migration
+      to Medium","detectedLanguage":"en","latestVersion":"196cdc8f3c1f","latestPublishedVersion":"196cdc8f3c1f","hasUnpublishedEdits":false,"latestRev":222,"createdAt":1497539775011,"updatedAt":1525209222556,"acceptedAt":0,"firstPublishedAt":1497541542257,"latestPublishedAt":1497541542257,"vote":false,"experimentalCss":"","displayAuthor":"","content":{"subtitle":"You
+      might not notice it at a first glance, but my blog is now on Medium. I was thinking
+      about this for a long time; and finally decided…","postDisplay":{"coverless":true}},"virtuals":{"statusForCollection":"APPROVED","allowNotes":true,"previewImage":{"imageId":"1*Yk0evcUMBM-ozsJKaZUSiA.png","filter":"","backgroundSize":"","originalWidth":800,"originalHeight":222,"strategy":"resample","height":0,"width":0},"wordCount":547,"imageCount":3,"readingTime":2.6141509433962264,"subtitle":"You
+      might not notice it at a first glance, but my blog is now on Medium. I was thinking
+      about this for a long time; and finally decided…","publishedInCount":1,"usersBySocialRecommends":[],"noIndex":false,"recommends":0,"isBookmarked":false,"tags":[{"slug":"blogging","name":"Blogging","postCount":33308,"metadata":{"postCount":33308,"coverImage":{"id":"1*5OLAut7SciRLEJjVm9OAsg.jpeg","originalWidth":4000,"originalHeight":2667,"isFeatured":true}},"type":"Tag"},{"slug":"medium","name":"Medium","postCount":8042,"metadata":{"postCount":8042,"coverImage":{"id":"1*ntr-5B9JWMCE2CcIF9FsMw.jpeg","originalWidth":2600,"originalHeight":1787,"isFeatured":true}},"type":"Tag"},{"slug":"wordpress","name":"Wordpres","postCount":0,"metadata":{"postCount":0,"coverImage":{"id":"1*Xg2cXLz1taRlQr_5rzVVmw.png","originalWidth":1200,"originalHeight":630}},"type":"Tag"},{"slug":"migration","name":"Migration","postCount":6707,"metadata":{"postCount":6707,"coverImage":{"id":"1*JlWCQhu3bXugCh5sWfqvpQ.png","originalWidth":1024,"originalHeight":512,"isFeatured":true}},"type":"Tag"},{"slug":"it","name":"It","postCount":4795,"metadata":{"postCount":4795,"coverImage":{"id":"0*YNmshn2rw133QB9q","originalWidth":5472,"originalHeight":3648,"isFeatured":true,"unsplashPhotoId":"2vmT5_FeMck"}},"type":"Tag"}],"socialRecommendsCount":0,"responsesCreatedCount":0,"links":{"entries":[{"url":"http://alternativeto.net/software/medium/?platform=self-hosted","alts":[],"httpStatus":200},{"url":"https://wordpress.org/","alts":[],"httpStatus":200}],"version":"0.3","generatedAt":1497541542952},"isLockedPreviewOnly":false,"metaDescription":"","totalClapCount":0,"sectionCount":1,"readingList":0,"topics":[]},"coverless":true,"slug":"migration-to-medium","translationSourcePostId":"","translationSourceCreatorId":"","isApprovedTranslation":false,"inResponseToPostId":"","inResponseToRemovedAt":0,"isTitleSynthesized":true,"allowResponses":true,"importedUrl":"","importedPublishedAt":0,"visibility":0,"uniqueSlug":"migration-to-medium-444baf1b8d0","previewContent":{"bodyModel":{"paragraphs":[{"name":"previewImage","type":4,"text":"","layout":10,"metadata":{"id":"1*Yk0evcUMBM-ozsJKaZUSiA.png","originalWidth":800,"originalHeight":222,"isFeatured":true}},{"name":"b2a8","type":3,"text":"Migration
+      to Medium","markups":[],"alignment":1},{"name":"b8f3","type":1,"text":"You might
+      not notice it at a first glance, but my blog is now on Medium. I was thinking
+      about this for a long time; and…","markups":[{"type":1,"start":47,"end":71}],"alignment":1}],"sections":[{"startIndex":0}]},"isFullContent":false,"subtitle":"You
+      might not notice it at a first glance, but my blog is now on Medium. I was thinking
+      about this for a long time; and finally decided…"},"license":0,"inResponseToMediaResourceId":"","canonicalUrl":"","approvedHomeCollectionId":"2d6450a1d29f","newsletterId":"","webCanonicalUrl":"","mediumUrl":"","migrationId":"","notifyFollowers":true,"notifyTwitter":false,"notifyFacebook":false,"responseHiddenOnParentPostAt":0,"isSeries":false,"isSubscriptionLocked":false,"seriesLastAppendedAt":0,"audioVersionDurationSec":0,"sequenceId":"","isEligibleForRevenue":false,"isBlockedFromHightower":false,"deletedAt":0,"lockedPostSource":0,"hightowerMinimumGuaranteeStartsAt":0,"hightowerMinimumGuaranteeEndsAt":0,"featureLockRequestAcceptedAt":0,"mongerRequestType":1,"layerCake":0,"socialTitle":"","socialDek":"","editorialPreviewTitle":"","editorialPreviewDek":"","curationEligibleAt":0,"isProxyPost":false,"proxyPostFaviconUrl":"","proxyPostProviderName":"","proxyPostType":0,"isSuspended":false,"isLimitedState":false,"seoTitle":"","previewContent2":{"bodyModel":{"paragraphs":[{"name":"b2a8","type":3,"text":"Migration
+      to Medium","markups":[]},{"name":"7660","type":4,"text":"","markups":[],"layout":1,"metadata":{"id":"1*Yk0evcUMBM-ozsJKaZUSiA.png","originalWidth":800,"originalHeight":222,"isFeatured":true}},{"name":"b8f3","type":1,"text":"You
+      might not notice it at a first glance, but my blog is now on Medium. I was thinking
+      about this for a long time; and finally decided that it’s time.","markups":[{"type":1,"start":47,"end":71}]},{"name":"d0bb","type":1,"text":"There
+      were many disadvantages that I considered. First of all, Medium cannot be self-hosted.
+      There are a few open-source clones that do that, but sadly none look that good
+      and none have the same feeling that Medium does.\nWhich is understandable, because,
+      well, Medium is getting ‘dem munies for what they do. And they do it well.","markups":[{"type":3,"start":121,"end":127,"href":"http://alternativeto.net/software/medium/?platform=self-hosted","title":"","rel":"","anchorType":0},{"type":1,"start":261,"end":267},{"type":2,"start":162,"end":166},{"type":2,"start":279,"end":290}]}],"sections":[{"startIndex":0}]},"isFullContent":false,"subtitle":"You
+      might not notice it at a first glance, but my blog is now on Medium. I was thinking
+      about this for a long time; and finally decided…"},"cardType":0,"isDistributionAlertDismissed":false,"isShortform":false,"shortformType":0,"type":"Post"},"8047f291beb3":{"id":"8047f291beb3","versionId":"324d795e2046","creatorId":"bb5536ac71d2","homeCollectionId":"2d6450a1d29f","title":"Wowapi
+      gem — first World of Warcraft library","detectedLanguage":"pl","latestVersion":"324d795e2046","latestPublishedVersion":"324d795e2046","hasUnpublishedEdits":false,"latestRev":61,"createdAt":1497122698146,"updatedAt":1525208998016,"acceptedAt":0,"firstPublishedAt":1475245122000,"latestPublishedAt":1497698923859,"vote":false,"experimentalCss":"","displayAuthor":"","content":{"subtitle":"Rubystories
+      #3","postDisplay":{"coverless":true},"metaDescription":"About Ruby gem library
+      for World of Warcraft"},"virtuals":{"statusForCollection":"APPROVED","allowNotes":true,"previewImage":{"imageId":"1*dzHYRTBu-KQ8Eqg4lyC2LA.png","filter":"","backgroundSize":"","originalWidth":332,"originalHeight":352,"strategy":"resample","height":0,"width":0},"wordCount":416,"imageCount":2,"readingTime":1.9531446540880504,"subtitle":"Rubystories
+      #3","publishedInCount":1,"usersBySocialRecommends":[],"noIndex":false,"recommends":1,"isBookmarked":false,"tags":[{"slug":"games","name":"Games","postCount":29182,"metadata":{"postCount":29182,"coverImage":{"id":"1*dHgcMnWt_YQeRynZibNRRw.jpeg","originalWidth":2000,"originalHeight":666,"isFeatured":true}},"type":"Tag"},{"slug":"programming","name":"Programming","postCount":107797,"metadata":{"postCount":107797,"coverImage":{"id":"1*KpDOKMFAgDWaGTQHL0r70g.png","originalWidth":2721,"originalHeight":1021,"isFeatured":true}},"type":"Tag"},{"slug":"rubystories","name":"Rubystories","postCount":0,"metadata":{"postCount":0,"coverImage":{"id":"1*dzHYRTBu-KQ8Eqg4lyC2LA.png","originalWidth":332,"originalHeight":352,"isFeatured":true}},"type":"Tag"},{"slug":"worldofwarcraft","name":"World
+      Of Warcraft","postCount":0,"metadata":{"postCount":0,"coverImage":{"id":"1*g-G1LZxnSpnLQaPs-BYnvg.jpeg","originalWidth":1920,"originalHeight":1131}},"type":"Tag"},{"slug":"ruby","name":"Ruby","postCount":10326,"metadata":{"postCount":10326,"coverImage":{"id":"1*3i7w36I1T7ec2a0ZA-f_9Q.png","originalWidth":2208,"originalHeight":1396,"isFeatured":true}},"type":"Tag"}],"socialRecommendsCount":0,"responsesCreatedCount":0,"links":{"entries":[{"url":"https://dev.battle.net","alts":[],"httpStatus":200},{"url":"https://git.3lab.re/marahin/wowapi","alts":[],"httpStatus":200}],"version":"0.3","generatedAt":1497698939203},"isLockedPreviewOnly":false,"metaDescription":"About
+      Ruby gem library for World of Warcraft","totalClapCount":1,"sectionCount":1,"readingList":0,"topics":[]},"coverless":true,"slug":"rubystories-3-wowapi-gem-first-world-of-warcraft-library","translationSourcePostId":"","translationSourceCreatorId":"","isApprovedTranslation":false,"inResponseToPostId":"","inResponseToRemovedAt":0,"isTitleSynthesized":false,"allowResponses":true,"importedUrl":"","importedPublishedAt":1475245122000,"visibility":0,"uniqueSlug":"rubystories-3-wowapi-gem-first-world-of-warcraft-library-8047f291beb3","previewContent":{"bodyModel":{"paragraphs":[{"name":"previewImage","type":4,"text":"","layout":10,"metadata":{"id":"1*dzHYRTBu-KQ8Eqg4lyC2LA.png","originalWidth":332,"originalHeight":352,"isFeatured":true}},{"name":"previewTitle","type":3,"text":"Wowapi
+      gem — first World of Warcraft library","alignment":1},{"name":"previewSubtitle","type":13,"text":"Rubystories
+      #3","alignment":1}],"sections":[{"startIndex":0}]},"isFullContent":false,"subtitle":"Rubystories
+      #3"},"license":0,"inResponseToMediaResourceId":"","canonicalUrl":"","approvedHomeCollectionId":"2d6450a1d29f","newsletterId":"","webCanonicalUrl":"https://marahin.pl/wowapi-gem-first-world-of-warcraft-library/","mediumUrl":"","migrationId":"6ac4dab280c","notifyFollowers":false,"notifyTwitter":false,"notifyFacebook":false,"responseHiddenOnParentPostAt":0,"isSeries":false,"isSubscriptionLocked":false,"seriesLastAppendedAt":0,"audioVersionDurationSec":0,"sequenceId":"","isEligibleForRevenue":false,"isBlockedFromHightower":false,"deletedAt":0,"lockedPostSource":0,"hightowerMinimumGuaranteeStartsAt":0,"hightowerMinimumGuaranteeEndsAt":0,"featureLockRequestAcceptedAt":0,"mongerRequestType":1,"layerCake":0,"socialTitle":"","socialDek":"","editorialPreviewTitle":"","editorialPreviewDek":"","curationEligibleAt":0,"isProxyPost":false,"proxyPostFaviconUrl":"","proxyPostProviderName":"","proxyPostType":0,"isSuspended":false,"isLimitedState":false,"seoTitle":"","previewContent2":{"bodyModel":{"paragraphs":[{"name":"62ce","type":3,"text":"Rubystories
+      #3: Wowapi gem — first World of Warcraft library","markups":[]},{"name":"2b61","type":4,"text":"In
+      the picture you can see… that you are not prepared.","markups":[],"layout":4,"metadata":{"id":"1*GmE-EQy5nAZjbqs_Qb1nLw.jpeg","originalWidth":1280,"originalHeight":720}},{"name":"f6ec","type":1,"text":"You
+      know World of Warcraft. I mean, like, it’s one of those games that has huge
+      marketing, huge story, and is widely known around the globe. Milions of players
+      worldwide, huge roleplaying community, huge YouTube scene. Basicly, you have
+      to know World of Warcraft. As a programmer and a player, I have my own guild
+      in the game; The Aspects based at Argent Dawn realm. We have a funky website
+      which has been running for years now, with cool stuff that shows newsfeed &
+      live members roster online. However, our lovely Blizzard has changed the API,
+      and so — after years of programming, this time as a professional, I decided
+      to go on another level with delivering our guild homepage.","markups":[{"type":1,"start":4,"end":26},{"type":1,"start":228,"end":262},{"type":2,"start":327,"end":338}]}],"sections":[{"startIndex":0}]},"isFullContent":false,"subtitle":"Rubystories
+      #3"},"cardType":0,"isDistributionAlertDismissed":false,"isShortform":false,"shortformType":0,"type":"Post"},"bf5650ff07d1":{"id":"bf5650ff07d1","versionId":"5770b3dafd0c","creatorId":"bb5536ac71d2","homeCollectionId":"2d6450a1d29f","title":"Sidekiq
+      + Clockwork — how can we get rid of old, queued tasks? — Rubystories #2","detectedLanguage":"en","latestVersion":"5770b3dafd0c","latestPublishedVersion":"5770b3dafd0c","hasUnpublishedEdits":false,"latestRev":42,"createdAt":1497122712326,"updatedAt":1522014666816,"acceptedAt":0,"firstPublishedAt":1445376990000,"latestPublishedAt":1497542431906,"vote":false,"experimentalCss":"","displayAuthor":"","content":{"postDisplay":{"coverless":true}},"virtuals":{"statusForCollection":"APPROVED","allowNotes":true,"previewImage":{"imageId":"1*Oi51guyk2C1C3xsbpSr0qw.png","filter":"","backgroundSize":"","originalWidth":1150,"originalHeight":1170,"strategy":"resample","height":0,"width":0},"wordCount":323,"imageCount":1,"readingTime":1.4188679245283018,"subtitle":"","publishedInCount":1,"usersBySocialRecommends":[],"noIndex":false,"recommends":0,"isBookmarked":false,"tags":[{"slug":"it","name":"It","postCount":4795,"metadata":{"postCount":4795,"coverImage":{"id":"0*YNmshn2rw133QB9q","originalWidth":5472,"originalHeight":3648,"isFeatured":true,"unsplashPhotoId":"2vmT5_FeMck"}},"type":"Tag"},{"slug":"programming","name":"Programming","postCount":107797,"metadata":{"postCount":107797,"coverImage":{"id":"1*KpDOKMFAgDWaGTQHL0r70g.png","originalWidth":2721,"originalHeight":1021,"isFeatured":true}},"type":"Tag"},{"slug":"rubystories","name":"Rubystories","postCount":0,"metadata":{"postCount":0,"coverImage":{"id":"1*dzHYRTBu-KQ8Eqg4lyC2LA.png","originalWidth":332,"originalHeight":352,"isFeatured":true}},"type":"Tag"},{"slug":"rails","name":"Rails","postCount":3397,"metadata":{"postCount":3397,"coverImage":{"id":"0*h0Fxwz6ZYA09n89k","isFeatured":true}},"type":"Tag"},{"slug":"ruby","name":"Ruby","postCount":10326,"metadata":{"postCount":10326,"coverImage":{"id":"1*3i7w36I1T7ec2a0ZA-f_9Q.png","originalWidth":2208,"originalHeight":1396,"isFeatured":true}},"type":"Tag"}],"socialRecommendsCount":0,"responsesCreatedCount":0,"links":{"entries":[],"version":"0.3","generatedAt":1497542432181},"isLockedPreviewOnly":false,"metaDescription":"","totalClapCount":0,"sectionCount":1,"readingList":0,"topics":[]},"coverless":true,"slug":"sidekiq-clockwork-how-can-we-get-rid-of-old-queued-tasks-rubystories-2","translationSourcePostId":"","translationSourceCreatorId":"","isApprovedTranslation":false,"inResponseToPostId":"","inResponseToRemovedAt":0,"isTitleSynthesized":false,"allowResponses":true,"importedUrl":"","importedPublishedAt":1445376990000,"visibility":0,"uniqueSlug":"sidekiq-clockwork-how-can-we-get-rid-of-old-queued-tasks-rubystories-2-bf5650ff07d1","previewContent":{"bodyModel":{"paragraphs":[{"name":"9196","type":3,"text":"Sidekiq
+      + Clockwork — how can we get rid of old, queued tasks? — Rubystories #2","markups":[],"alignment":1},{"name":"95e5","type":3,"text":"Note:
+      this was written a long time ago. Lately there are better ways to do that, including
+      Sidekiq’s web panel. Please…","markups":[{"type":1,"start":0,"end":118}],"alignment":1}],"sections":[{"startIndex":0}]},"isFullContent":false,"subtitle":""},"license":0,"inResponseToMediaResourceId":"","canonicalUrl":"","approvedHomeCollectionId":"2d6450a1d29f","newsletterId":"","webCanonicalUrl":"https://marahin.pl/quickpost-sidekiq-clockwork-jak-wyczyscic-kolejke-zadan/","mediumUrl":"","migrationId":"6ac4dab280c","notifyFollowers":false,"notifyTwitter":false,"notifyFacebook":false,"responseHiddenOnParentPostAt":0,"isSeries":false,"isSubscriptionLocked":false,"seriesLastAppendedAt":0,"audioVersionDurationSec":0,"sequenceId":"","isEligibleForRevenue":false,"isBlockedFromHightower":false,"deletedAt":0,"lockedPostSource":0,"hightowerMinimumGuaranteeStartsAt":0,"hightowerMinimumGuaranteeEndsAt":0,"featureLockRequestAcceptedAt":0,"mongerRequestType":1,"layerCake":0,"socialTitle":"","socialDek":"","editorialPreviewTitle":"","editorialPreviewDek":"","curationEligibleAt":0,"isProxyPost":false,"proxyPostFaviconUrl":"","proxyPostProviderName":"","proxyPostType":0,"isSuspended":false,"isLimitedState":false,"seoTitle":"","previewContent2":{"bodyModel":{"paragraphs":[{"name":"9196","type":3,"text":"Sidekiq
+      + Clockwork — how can we get rid of old, queued tasks? — Rubystories #2","markups":[]},{"name":"95e5","type":3,"text":"Note:
+      this was written a long time ago. Lately there are better ways to do that, including
+      Sidekiq’s web panel. Please don’t hate, kthxbai.","markups":[{"type":1,"start":0,"end":139}]},{"name":"cddb","type":4,"text":"","markups":[],"layout":4,"metadata":{"id":"1*Oi51guyk2C1C3xsbpSr0qw.png","originalWidth":1150,"originalHeight":1170}},{"name":"22ab","type":1,"text":"If
+      you ever had used sidekiq (perhaps alongside with clockwork), you should know
+      that if somehow sidekiq daemon crashes and the worker is triggered, the task
+      is being queued (that is, for default config). Now: what to do, if you had a
+      per-minute task, sidekiq crashes, and you did not notice that (or could not
+      react) for an hour? This means that when you run sidekiq again, it will start
+      off with running all 60 tasks that were queued.","markups":[{"type":1,"start":406,"end":435},{"type":2,"start":21,"end":28},{"type":2,"start":53,"end":62},{"type":2,"start":97,"end":104},{"type":2,"start":252,"end":259},{"type":2,"start":360,"end":367}]}],"sections":[{"startIndex":0}]},"isFullContent":false,"subtitle":""},"cardType":0,"isDistributionAlertDismissed":false,"isShortform":false,"shortformType":0,"type":"Post"}}},"paging":{"path":"/_/api/collections/2d6450a1d29f/stream","next":{"to":"1497541542257","ignoredIds":["8047f291beb3","bf5650ff07d1"],"page":4}}},"v":3,"b":"40184-3a973b9"}'
+    headers:
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 04 Mar 2020 15:33:31 GMT
+      Expires:
+      - Thu, 09 Sep 1999 09:09:09 GMT
+      Link:
+      - <https://medium.com/humans.txt>; rel="humans"
+      Pragma:
+      - no-cache
+      Sepia-Upstream:
+      - medium
+      Server:
+      - nginx
+      Set-Cookie:
+      - optimizelyEndUserId=lo_hlYALFaBkcxm; path=/; expires=Thu, 04 Mar 2021 15:33:31
+        GMT; samesite=none; secure
+      - uid=lo_hlYALFaBkcxm; path=/; expires=Thu, 04 Mar 2021 15:33:31 GMT; samesite=none;
+        secure; httponly
+      - sid=1:aX6DF6VyOmF/VJUaGRXY7Oxv9Q3tjqrXLP/k4dgDAl7U9S5lWy0fszTlIH7Tc8dW; path=/;
+        expires=Thu, 04 Mar 2021 15:33:31 GMT; samesite=none; secure; httponly
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - sameorigin
+      X-Obvious-Info:
+      - 40184-3a973b9,3a973b98af1
+      X-Obvious-Tid:
+      - 1583336011828:3f3ba15fc692
+      X-Opentracing:
+      - '{"ot-tracer-spanid":"141bcab47514d503","ot-tracer-traceid":"3488be8a11d7a2f3","ot-tracer-sampled":"true"}'
+      X-Powered-By:
+      - Medium
+      X-Ua-Compatible:
+      - IE=edge, Chrome=1
+      X-Xss-Protection:
+      - 1; mode=block
+    status: 200 OK
+    code: 200
+    duration: ""

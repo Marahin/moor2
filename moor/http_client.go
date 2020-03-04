@@ -8,10 +8,11 @@ import (
 	"strconv"
 )
 
-func sanitizeUrl(url string) string {
+func SanitizeUrl(url string) string {
 	if url[0:4] != "http" {
 		url = "http://" + url
 	}
+
 	return url
 }
 
@@ -34,9 +35,12 @@ func BlockerCharactersAmount() int {
 	return amount
 }
 
-func Get(url string) string {
-	url = sanitizeUrl(url)
-	resp, err := http.Get(url)
+func Get(url string, client *http.Client) string {
+	if client == nil {
+		client = &http.Client{}
+	}
+	url = SanitizeUrl(url)
+	resp, err := client.Get(url)
 	if err != nil {
 		fmt.Println("[moor] Error during GET")
 		fmt.Printf("[moor]")

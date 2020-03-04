@@ -8,8 +8,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"moor2/moor"
-	. "moor2/pkg"
+	"github.com/marahin/moor2/moor"
+	. "github.com/marahin/moor2/pkg"
 )
 
 func Handler(w http.ResponseWriter, r *http.Request) {
@@ -37,7 +37,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 			_, _ = fmt.Fprint(w, "{ \"error\": \"PathUnescape failed\"}", http.StatusInternalServerError)
 		}
 
-		_, _ = fmt.Fprintf(w, "%s", moor.Get(parsedParamUrl))
+		_, _ = fmt.Fprintf(w, "%s", moor.Get(parsedParamUrl, nil))
 		log.WithFields(log.Fields{"parsed paramUrl": parsedParamUrl}).Info("GET /api/medium completed")
 
 		return
