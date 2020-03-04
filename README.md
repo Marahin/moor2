@@ -1,6 +1,6 @@
 # Moor
   
-[![pipeline status](https://git.3lab.re/marahin/moor/badges/master/pipeline.svg)](https://git.3lab.re/marahin/moor/commits/master)  
+[![CircleCI](https://circleci.com/gh/Marahin/moor2.svg?style=svg)](https://circleci.com/gh/Marahin/moor2)  
 
 **M**edium D**oor** - **moor** is a WWW proxy that fetches data from given URL (bypassing CORS and `while(1)` anti-JSON-hijack trap). 
 
@@ -16,21 +16,6 @@ moor2 is different from the original moor by being serverless (prepared to host 
 ## Use cases → How can I use it?
 
 That's up to you. I use it on [my website](http://marahin.pl) to get my latest post title and link :-).
-
-### Performance
-
-For the maximum performance I suggest reverse proxy-ing to the application through [nginx]() or [varnish]() - basicly any reverse proxy that allows caching. 
-
-In my case **nginx** helped me achieve following performance (sample requests):
-
-| request | without cache | with cache                    |
-|---------|---------------|-------------------------------|
-| #1      | 2610ms        | 2140ms (cache initialization) |
-| #2      | 1340ms        | 8.16ms                        |
-| #3      | 1710ms        | 1.03ms                        |
-| #4      | 872ms         | 0.59ms                        |
-| #5      | 2330ms        | 0.89ms                        |
-| #6      | 1080ms        | 0.93ms                        |
 
 ## Installation
 
