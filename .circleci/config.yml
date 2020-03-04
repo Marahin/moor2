@@ -8,6 +8,6 @@ jobs:
     working_directory: /go/src/github.com/{{ORG_NAME}}/{{REPO_NAME}}
     steps:
       - checkout
-
+      - run: touch .env
       - run: make install-dependencies
       - run: make test
