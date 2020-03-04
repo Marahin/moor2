@@ -2,12 +2,11 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/golang:1.14-node
-
+      - image: circleci/golang:1.14
 
     working_directory: /go/src/github.com/{{ORG_NAME}}/{{REPO_NAME}}
     steps:
       - checkout
       - run: touch .env
-      - run: sudo make install-dependencies # It is required to use `sudo` here because of `node_modules` path
+      - run: make install-dependencies # It is required to use `sudo` here because of `node_modules` path
       - run: make test

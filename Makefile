@@ -4,10 +4,12 @@ export
 
 install-dependencies:
 		go mod download
-		npm i -g now@latest
 		go get github.com/wadey/gocovmerge
 
-local-run:
+install-now:
+	npm i -g now@latest
+
+local-run: install-now
 		now dev
 
 create-coverage-directory:
