@@ -6,3 +6,7 @@ moor2.iml
 .now
 .env
 .env.build
+
+# Project
+.coverage
+
